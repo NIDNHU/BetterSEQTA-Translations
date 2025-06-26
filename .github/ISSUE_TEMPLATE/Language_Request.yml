@@ -10,10 +10,14 @@ body:
       options:
         - label: "I confirm that I could not find requests for this language in any other issues"
           required: true
+  - type: checkboxes
+    attributes:
       label: Confirm Compliance
       options:
         - label: "I confirm that creating this request does NOT guarantee it will be added/approved"
           required: true
+  - type: checkboxes
+    attributes:
       label: Contribution Offer
       options:
         - label: "I Hereby offer to contribute to adding this language"
