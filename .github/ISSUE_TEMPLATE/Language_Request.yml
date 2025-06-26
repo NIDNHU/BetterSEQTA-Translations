@@ -9,7 +9,7 @@ body:
         label: Requested Language
         description: What language would you like to have added?
         placeholder: Eg. Italian
-      validations:
+    validations:
         required: true
 
   - type: checkboxes
