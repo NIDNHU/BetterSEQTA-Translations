@@ -2,3 +2,17 @@ name: Language Request
 description: I would like to formally request a language to be added to the translations
 labels: enhancement
 title: "[FR] "
+
+body:
+  - type: checkboxes
+    attributes:
+      label: Confirm
+      options:
+        - label: "I confirm that I could not find requests for this language in any other issues"
+          required: true
+        - label: "I confirm that creating this request does NOT guarantee it will be added/approved"
+          required: true
+      label: Contribution Offer
+      options:
+        - label: "I Hereby offer to contribute to adding this language"
+          required: false
