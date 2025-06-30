@@ -1,6 +1,6 @@
 ## Language Submission Checklist
 
-Please complete the following checklist and provide the required information:
+Please complete the following checklist (replacing `[ ]` with `[x]` ticks the box) and provide the required information:
 
 - [ ] **I confirm this submission is grammatically correct to the best of my knowledge.**
 - [ ] **I confirm this submission follows the [language guidelines](<insert-link-here>).**
