@@ -70,7 +70,7 @@ Each language code listed in `languages.json` must have a corresponding translat
 2. **Key Matching**: Every translation file **must have exactly the same keys** as `eng.json`.
 3. **Nested Support**: Nested structures (objects within objects) are supported and must mirror the depth and order.
 4. **Comments**: JSON does not allow comments. Keep translations clean.
-5. **Untranslated Strings**: If a string is not translated yet, it should temporarily fallback to the English value.
+5. **Untranslated Strings**: If a string is not translated yet, it should temporarily be left as the default English value.
 6. **Encoding**: All files must be UTF-8 encoded.
 
 ### Example Structure (`eng.json`)
