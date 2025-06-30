@@ -122,7 +122,7 @@ Each language code listed in `languages.json` must have a corresponding translat
 
 ## In future:
 
-This will hopefully be integrated with crowdin to make this crowdfunded (since translating DesQTA like this would be a pain in the ass), as of right now this is more of an outline
+This will hopefully be integrated with crowdin to make this crowdfunded (since translating DesQTA like this would be a pain), as of right now this is more of an outline
 
 ---
 
