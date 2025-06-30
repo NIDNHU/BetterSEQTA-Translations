@@ -1,7 +1,7 @@
 name: Language Submission
 description: Submit a new language translation for review
 labels: language addition
-title: [Language Submission]: <Add language name here>
+title: "[Language Submission]: <Add language name here>"
 body:
   - type: checkboxes
     id: grammar
