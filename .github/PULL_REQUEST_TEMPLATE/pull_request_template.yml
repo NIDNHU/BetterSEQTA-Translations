@@ -1,61 +1,61 @@
-name: "Language Submission"
-description: "Submit a new language translation for review"
+name: Language Submission
+description: Submit a new language translation for review
 labels: language addition
-title: "[Language Submission]: <Add language name here>"
+title: [Language Submission]: <Add language name here>
 body:
   - type: checkboxes
     id: grammar
     attributes:
-      label: "Grammar Verification"
-      description: "Please confirm the following:"
+      label: Grammar Verification
+      description: Please confirm the following:
       options:
-        - label: "I confirm this submission is grammatically correct to the best of my knowledge."
+        - label: I confirm this submission is grammatically correct to the best of my knowledge.
           required: true
   - type: checkboxes
     id: guidelines
     attributes:
-      label: "Language Guidelines"
-      description: "Please confirm the following:"
+      label: Language Guidelines
+      description: Please confirm the following:
       options:
-        - label: "I confirm this submission follows the language guidelines [found here](<insert-link-here>)."
+        - label: I confirm this submission follows the language guidelines.
           required: true
   - type: checkboxes
     id: json_keys
     attributes:
-      label: "JSON Keys Check"
-      description: "Please confirm the following:"
+      label: JSON Keys Check
+      description: Please confirm the following:
       options:
-        - label: "I confirm this submission is not missing any JSON keys, nor does it have too many."
+        - label: I confirm this submission is not missing any JSON keys, nor does it have too many.
           required: true
   - type: input
     id: language_name
     attributes:
-      label: "Language Name"
-      description: "Which language are you submitting?"
-      placeholder: "e.g., French"
+      label: Language Name
+      description: Which language are you submitting?
+      placeholder: e.g., French
     validations:
       required: true
   - type: input
     id: iso_code
     attributes:
-      label: "ISO 639-2 Code"
-      description: "What is the three-letter ISO 639-2 code for this language?"
-      placeholder: "e.g., fra"
+      label: ISO 639-2 Code
+      description: What is the three-letter ISO 639-2 code for this language?
+      placeholder: e.g., fra
     validations:
       required: true
   - type: textarea
     id: justification
     attributes:
-      label: "Justification"
-      description: "Why do you think this language should be added?"
-      placeholder: "Explain your reasoning here..."
+      label: Justification
+      description: Why do you think this language should be added?
+      placeholder: Explain your reasoning here...
     validations:
       required: true
   - type: checkboxes
     id: no_translation_tools
     attributes:
-      label: "Translation Tool Confirmation"
-      description: "Please confirm the following:"
+      label: Translation Tool Confirmation
+      description: Please confirm the following:
       options:
-        - label: "I confirm I DID NOT use any translation tools such as Google Translate or any LLMs for this submission."
+        - label: I confirm I DID NOT use any translation tools such as Google Translate or any LLMs for this submission.
           required: true
